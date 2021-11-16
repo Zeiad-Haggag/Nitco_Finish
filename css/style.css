@@ -545,7 +545,7 @@ h2 {
 
 @media screen and (max-width: 480px) {
   .hero-style .slide-title h2 {
-    font-size: 15px;
+    font-size: 22px;
     margin: 120px 0 30px;
   }
 }
@@ -2219,7 +2219,10 @@ Footer  Section
     padding-bottom: 35px;
   }
   .about-section .row .info h1 {
-    font-size: 24px;
+    font-size: 22px;
+  }
+  .about-section .row .info p {
+    font-size: 1rem;
   }
   .about-section .row .acheive {
     max-width: 70%;
