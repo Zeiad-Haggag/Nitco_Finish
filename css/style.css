@@ -571,6 +571,14 @@ h2 {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .hero-style .slide-text p {
+    font-size: .8rem;
+    font-weight: normal;
+    margin: 0 0 30px;
+  }
+}
+
 .hero-style .slide-btns > a:first-child {
   margin-right: 10px;
 }
@@ -2214,13 +2222,13 @@ Footer  Section
     font-size: 24px;
   }
   .about-section .row .acheive {
-    max-width: 80%;
+    max-width: 70%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 25;
     grid-row-gap: 50px;
-    margin-right: -3px;
+    margin-right: 0px;
   }
   .features-2-section {
     display: none;
@@ -2255,10 +2263,16 @@ Footer  Section
   .contact-us-section .contact-us-row {
     display: flex;
     flex-direction: column;
+    padding-top: 70px;
   }
-  .contact-us-section .contact-us-row .column {
-    margin-top: 1rem;
-    padding-bottom: 5px;
+  .contact-us-section .contact-us-row .column-1 {
+    margin-top: 30px;
+  }
+  .contact-us-section .contact-us-row .column-1 h1 {
+    font-size: 24px;
+  }
+  .contact-us-section .contact-us-row .column-2 {
+    margin-top: 40px;
   }
   .footer-section .btn-scroll-up {
     position: absolute;
